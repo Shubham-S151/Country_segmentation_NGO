@@ -47,8 +47,6 @@ def main():
     if st.button('Predict'):
         response = prediction(input_list)
         st.success(response)
-        st.success(response,icon='<https://fonts.google.com/icons?icon.set=Material+Symbols&icon.style=Rounded>')
-
 if __name__ == '__main__':
     main()
 
